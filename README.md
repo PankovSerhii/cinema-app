@@ -38,7 +38,7 @@ request `GET`.
 
 ![model structure](auxiliary/shema-photo.png)
 
-## <a id="technologies"></a>Technologies
+## <a id="technologies"></a>Technology
 [content](#content)
 - Java 11
 - Hibernate
