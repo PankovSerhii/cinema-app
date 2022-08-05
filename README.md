@@ -6,7 +6,7 @@ Web application which simulates cinema service work.
 2. [Model structure](#model-structure)
 3. [Technologies](#technologies)
 4. [3-tier architecture](#3-tier-architecture)
-5. [How to start?](#how-to-start)
+5. [How to run](#how-to-run)
 ## <a id="description"></a>Description of features
 #### Access level `ALL`
 - register a new user `/register`, request `POST`.
@@ -36,7 +36,7 @@ request `GET`.
 - MySQL
 - Apache Maven
 - Apache Tomcat (to run app locally)
-## <a id="how-to-start"></a>How to start Cinema manager
+## <a id="how-to-run"></a>How to run
 - You need Apache Tomcat (version 9.0.50).
 - You need local or external MySql DB.
 - You need to change the configuration information in the file `/resources/db.properties`.
