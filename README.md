@@ -1,12 +1,12 @@
 # Cinema manager
 ![drawing](auxiliary/cover-photo.jpg)
+Web application which simulates cinema service work.
 ## Table of contents
 1. [Description of features](#description)
 2. [Technologies](#technologies)
 3. [3-tier architecture](#3-tier-architecture)
 4. [How to start?](#how-to-start)
 5. [Model structure](#model-structure)
-Web application which simulates cinema service work.
 ## <a id="description"></a>Description of features
 ### Access level `ALL`
 - register a new user `/register`, request `POST`.
