@@ -1,13 +1,18 @@
 # Cinema manager
 ![drawing](auxiliary/cover-photo.jpg)
-Web application which simulates cinema service work.
-## Table of contents
-1. [Description of features](#description)
-2. [Model structure](#model-structure)
-3. [Technologies](#technologies)
-4. [3-tier architecture](#3-tier-architecture)
-5. [How to run](#how-to-run)
+Web application which simulates cinema service work. Implemented authorization and 
+authentication functionality for users. Data exchange between the application and the client is carried out using 
+the JSON format.
+
+## <a id="content"></a>Content
+- [Description of features](#description)
+- [Model structure](#model-structure)
+- [Technologies](#technologies)
+- [How to run](#how-to-run)
+
 ## <a id="description"></a>Description of features
+[content](#content)
+
 #### Access level `ALL`
 - register a new user `/register`, request `POST`.
 #### Access level `ADMIN`
@@ -27,16 +32,24 @@ request `GET`.
 - get a list of tickets in the user's cart `/shopping-carts/by-user`, request `GET`.
 - confirm the ticket order in the shopping cart `/orders/complete`, request `POST`.
 - get a list of this user's orders `/orders - user`, request `GET`.
+
 ## <a id="model-structure"></a>Model structure
+[content](#content)
+
 ![model structure](auxiliary/shema-photo.png)
+
 ## <a id="technologies"></a>Technologies
+[content](#content)
 - Java 11
 - Hibernate
-- Spring (Core, Web, Security)
+- Spring (Core, MVC, Web, Security)
 - MySQL
+- JSON
 - Apache Maven
 - Apache Tomcat (to run app locally)
-## <a id="how-to-run"></a>How to run
+
+## <a id="how-to-run"></a>How to run 
+[content](#content)
 - You need Apache Tomcat (version 9.0.50).
 - You need local or external MySql DB.
 - You need to change the configuration information in the file `/resources/db.properties`.
@@ -44,4 +57,4 @@ request `GET`.
 - After running the application you will be redirected to login page. You can use:
     * username `admin@gmail.com` with password `1234` to login as admin,
     * username `user@gmail.com` with password `1234` to login as user.
-- You can use Postman to send requests.
+- You can use Postman to send requests and get response.
