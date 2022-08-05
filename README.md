@@ -7,7 +7,7 @@ the JSON format.
 ## <a id="content"></a>Content
 - [Description of features](#description)
 - [Model structure](#model-structure)
-- [Technologies](#technologies)
+- [Technology](#technology)
 - [How to run](#how-to-run)
 
 ## <a id="description"></a>Description of features
@@ -38,7 +38,7 @@ request `GET`.
 
 ![model structure](auxiliary/shema-photo.png)
 
-## <a id="technologies"></a>Technology
+## <a id="technology"></a>Technology
 [content](#content)
 - Java 11
 - Hibernate
