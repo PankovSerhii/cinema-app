@@ -27,6 +27,8 @@ request `GET`.
 - get a list of tickets in the user's cart `/shopping-carts/by-user`, request `GET`.
 - confirm the ticket order in the shopping cart `/orders/complete`, request `POST`.
 - get a list of this user's orders `/orders - user`, request `GET`.
+## <a id="model-structure"></a>Model structure
+![model structure](auxiliary/shema-photo.png)
 ## <a id="technologies"></a>Technologies
 - Java 11
 - Hibernate
@@ -37,12 +39,9 @@ request `GET`.
 ## <a id="how-to-start"></a>How to start Cinema manager
 - You need Apache Tomcat (version 9.0.50).
 - You need local or external MySql DB.
-- To connect to the database in the application, you need to change the configuration information 
-in the file `/resources/db.properties` to the ones you specified when installing MySQL.
+- You need to change the configuration information in the file `/resources/db.properties`.
 - Finally, you can start the application
 - After running the application you will be redirected to login page. You can use:
     * username `admin@gmail.com` with password `1234` to login as admin,
     * username `user@gmail.com` with password `1234` to login as user.
 - You can use Postman to send requests.
-## <a id="model-structure"></a>Model structure
-![model structure](auxiliary/shema-photo.png)
