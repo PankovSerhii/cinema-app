@@ -3,10 +3,10 @@
 Web application which simulates cinema service work.
 ## Table of contents
 1. [Description of features](#description)
-2. [Technologies](#technologies)
-3. [3-tier architecture](#3-tier-architecture)
-4. [How to start?](#how-to-start)
-5. [Model structure](#model-structure)
+2. [Model structure](#model-structure)
+3. [Technologies](#technologies)
+4. [3-tier architecture](#3-tier-architecture)
+5. [How to start?](#how-to-start)
 ## <a id="description"></a>Description of features
 #### Access level `ALL`
 - register a new user `/register`, request `POST`.
