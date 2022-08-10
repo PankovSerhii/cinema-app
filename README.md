@@ -36,7 +36,7 @@ request `GET`.
 ## <a id="db-structure"></a>DataBase structure
 [content](#content)
 
-![db structure](auxiliary/shema-photo.png)
+![db structure](auxiliary/shema-photo.jpg)
 
 ## <a id="technology"></a>Technology
 [content](#content)
