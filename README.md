@@ -1,12 +1,12 @@
 # Cinema manager
-![drawing](auxiliary/cover-photo.jpg)
+![cover](auxiliary/cover-photo.jpg)
 Web application which simulates cinema service work. Implemented authorization and 
 authentication functionality for users. Data exchange between the application and the client is carried out using 
 the JSON format.
 
 ## <a id="content"></a>Content
 - [Description of features](#description)
-- [Model structure](#model-structure)
+- [DataBase structure](#db-structure)
 - [Technology](#technology)
 - [How to run](#how-to-run)
 
@@ -33,10 +33,10 @@ request `GET`.
 - confirm the ticket order in the shopping cart `/orders/complete`, request `POST`.
 - get a list of this user's orders `/orders - user`, request `GET`.
 
-## <a id="model-structure"></a>Model structure
+## <a id="db-structure"></a>DataBase structure
 [content](#content)
 
-![model structure](auxiliary/shema-photo.png)
+![db structure](auxiliary/shema-photo.png)
 
 ## <a id="technology"></a>Technology
 [content](#content)
